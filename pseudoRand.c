@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<math.h>
-
+*/
+  Autor: Andres Velasco
+	
+*/
 long int mod(long int a,long int b){
 	return a%b;
 }
