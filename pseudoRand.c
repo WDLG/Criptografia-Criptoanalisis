@@ -1,12 +1,11 @@
 #include<stdio.h>
 #include<math.h>
 /*
-  Autor: Andres Velasco
+   Implementacion del algoritmo: Blum Blum Shub Generator	
+   Autor: Andres Velasco
 	
 */
-long int mod(long int a,long int b){
-	return a%b;
-}
+long int mod(long int a,long int b){return a%b;}
 
 int main(int argc, char *argv[]){
  	  long int n = atoi (argv[1]);
